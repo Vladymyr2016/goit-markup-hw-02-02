@@ -21,12 +21,16 @@ a {
 
 .header-logo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+}
+
+.list {
+    list-style: none;
 }
 
 .header-span {
@@ -50,17 +54,20 @@ a {
     letter-spacing: 0.02em;
 }
 
-.header-list {}
-
-.header-list-link {
+.header-list {
     color: #2E2F42;
-
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.header-list-link {}
+
+.link {
+    text-decoration: none;
 }
 
 .header-list-link:hover,
