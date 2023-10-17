@@ -296,10 +296,12 @@ a {
 
 .footer-logo {
     color: #4D5AE5;
+    font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
 }
 
 .footer-span {
