@@ -242,14 +242,20 @@ a {
 
 .portfolio-filter-button {
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
     color: #4D5AE5;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    background-color: #F4F4FD;
 }
 
-
+.portfolio-filter-button:hover,
+.portfolio-filter-button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
 
 .portfolio-menu {}
 
