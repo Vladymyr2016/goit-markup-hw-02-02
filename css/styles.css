@@ -63,7 +63,9 @@ a {
     letter-spacing: 0.02em;
 }
 
-.header-list-link {}
+.header-list-link {
+    color: #2e2f42;
+}
 
 .link {
     text-decoration: none;
