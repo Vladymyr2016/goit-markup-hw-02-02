@@ -45,7 +45,6 @@ a {
 }
 
 .header-menu {
-    color: #2E2F42;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -125,7 +124,6 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border-radius: 4px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
@@ -180,7 +178,6 @@ a {
 .work-menu {}
 
 .work-name {
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: url(<path-to-image>), lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
 }
 
@@ -195,6 +192,7 @@ a {
 .team-title {
     color: #2E2F42;
     text-align: center;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -203,7 +201,9 @@ a {
 
 .team-menu {}
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF;
+}
 
 .team-picture {}
 
