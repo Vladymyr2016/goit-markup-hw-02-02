@@ -213,15 +213,20 @@ a {
 
 /*===============*/
 
-/*=======filter====*/
 
-.filter {}
+/*======portfolio=====*/
 
-.filter-menu {}
+.portfolio {}
 
-.filter-list {}
+.portfolio-title {}
 
-.filter-button {
+.portfolio-filter {}
+
+.portfolio-filter-menu {}
+
+.portfolio-filter-list {}
+
+.portfolio-filter-button {
     cursor: pointer;
     color: #4D5AE5;
     font-size: 16px;
@@ -232,15 +237,11 @@ a {
 
 
 
-/*==============*/
-
-/*======portfolio=====*/
-
-.portfolio {}
-
 .portfolio-menu {}
 
-.portfolio-list {}
+.portfolio-list {
+    list-style: none;
+}
 
 .portfolio-link {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
