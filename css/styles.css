@@ -13,7 +13,11 @@ a {
     text-decoration: none;
 }
 
-:root {}
+:root {
+    --: #404bbf;
+    --sp-color: #2E2F42;
+
+}
 
 /*====header====*/
 
@@ -36,7 +40,7 @@ a {
 }
 
 .header-span {
-    color: #2E2F42;
+    color: var(--sp-color);
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
@@ -76,7 +80,7 @@ a {
 .header-list-link:hover,
 .header-list-link:focus,
 .header-list-link:active {
-    color: #404bbf;
+    color: var(--bg-color);
 }
 
 .header-address {
@@ -100,7 +104,7 @@ a {
 .header-address-link:hover,
 .header-address-link:active,
 .header-address-link:focus {
-    color: #404BBF;
+    color: var(--bg-color);
 }
 
 /*====================*/
